@@ -55,9 +55,9 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = const [
-    PageWithTabController(title: 'Page 1'),
-    PageWithTabController(title: 'Page 2'),
-    PageWithTabController(title: 'Page 3'),
+    PageWithTabController(title: 'home'),
+    PageWithTabController(title: 'search'),
+    PageWithTabController(title: 'settings'),
   ];
 
   void _onItemTapped(int index) {
